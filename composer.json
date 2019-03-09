@@ -1,0 +1,17 @@
+{
+    "name": "marshung/structure",
+    "description": "After the structure is described using the array data, the constructor is used to generate the code.",
+    "homepage": "https://github.com/marshung24/structure",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mars Hung",
+            "email": "tfaredxj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "marshung\\structure\\": "src" }
+    },
+    "minimum-stability": "stable"
+}
