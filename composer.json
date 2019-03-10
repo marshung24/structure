@@ -13,5 +13,8 @@
     "autoload": {
         "psr-4": { "marshung\\structure\\": "src" }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "require": {
+        "marshung/helper": "*",
+    }
 }

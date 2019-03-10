@@ -1,17 +1,27 @@
 <?php
-namespace marshung\structure;
+namespace marshung\structure\abstracts;
 
 /**
- * Structure Builder
- *
- * After the structure is described using the array data, the constructor is used to generate the code.
+ * Table Config Profile
  *
  * @author Mars.Hung
  *        
  */
-class Structure
+abstract class Config
 {
-
+    
+    /**
+     * Config
+     * @var array
+     */
+    protected static $_config = [];
+    
+    /**
+     * Cache
+     * @var array
+     */
+    protected static $_map = [];
+    
     /**
      * Construct
      */
@@ -23,22 +33,17 @@ class Structure
      */
     public function __destruct()
     {}
-    
+
     /**
      * *********************************************
      * ************** Public Function **************
      * *********************************************
      */
     
-    
-    public static function render($options)
-    {
-        return \marshung\structure\types\TableBuilder::render($options);
-    }
-    
     /**
      * **********************************************
-     * ************** Private Function **************
+     * ************** private Function **************
      * **********************************************
      */
+    
 }
