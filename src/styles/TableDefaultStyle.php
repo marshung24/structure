@@ -1,12 +1,12 @@
 <?php
-namespace marshung\structure\styles;
+namespace marsapp\structure\styles;
 
 /**
  * Table Style Profile
  *
  * @author Mars.Hung
  */
-class TableDefaultStyle extends \marshung\structure\abstracts\TableStyle
+class TableDefaultStyle extends \marsapp\structure\abstracts\TableStyle
 {
     
     /**

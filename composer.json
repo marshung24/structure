@@ -1,5 +1,5 @@
 {
-    "name": "marshung/structure",
+    "name": "marsapp/structure",
     "description": "After the structure is described using the array data, the constructor is used to generate the code.",
     "homepage": "https://github.com/marshung24/structure",
     "type": "library",
@@ -11,10 +11,13 @@
         }
     ],
     "autoload": {
-        "psr-4": { "marshung\\structure\\": "src" }
+        "psr-4": { "marsapp\\structure\\": "src", "marsapp\\test\\structure\\": "test"}
     },
     "minimum-stability": "stable",
+    "require-dev": {
+        "marsapp/devtools": "*"
+    },
     "require": {
-        "marshung/helper": "*",
+        "marsapp/arrayhelper": "*"
     }
 }

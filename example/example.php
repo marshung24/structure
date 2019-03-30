@@ -34,7 +34,7 @@ $options = [
 ];
 
 
-echo \marshung\structure\types\TableBuilder::render($options);
+echo \marsapp\structure\types\TableBuilder::render($options);
 
 
 

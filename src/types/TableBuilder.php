@@ -1,8 +1,8 @@
 <?php
-namespace marshung\structure\types;
+namespace marsapp\structure\types;
 
-use \marshung\structure\abstracts\TableConfig;
-use \marshung\structure\abstracts\TableStyle;
+use marsapp\structure\abstracts\TableConfig;
+use marsapp\structure\abstracts\TableStyle;
 
 /**
  * Table Structure Builder
@@ -65,8 +65,8 @@ class TableBuilder
     {
         /* Arguments prepare */
         // When $_config, $_style is not set, need to give them default values.
-        $config = isset($options['config']) ? $options['config'] : (empty(self::$_config) ? new \marshung\structure\configs\TableDefaultConfig() : '');
-        $style = isset($options['style']) ? $options['style'] : (empty(self::$_style) ? new \marshung\structure\styles\TableDefaultStyle() : '');
+        $config = isset($options['config']) ? $options['config'] : (empty(self::$_config) ? new \marsapp\structure\configs\TableDefaultConfig() : '');
+        $style = isset($options['style']) ? $options['style'] : (empty(self::$_style) ? new \marsapp\structure\styles\TableDefaultStyle() : '');
         $head = isset($options['head']) ? $options['head'] : [];
         $data = isset($options['data']) ? $options['data'] : [];
         $foot = isset($options['foot']) ? $options['foot'] : [];

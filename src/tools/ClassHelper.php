@@ -1,5 +1,5 @@
 <?php
-namespace marshung\structure\tools;
+namespace marsapp\structure\tools;
 
 /**
  * Class Helper

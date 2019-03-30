@@ -1,8 +1,8 @@
 <?php
-namespace marshung\structure\abstracts;
+namespace marsapp\structure\abstracts;
 
-use \marshung\structure\abstracts\Config;
-use \marshung\helper\ArrayHelper;
+use marsapp\structure\abstracts\Config;
+use marsapp\helper\ArrayHelper;
 /**
  * Table Config Profile
  *

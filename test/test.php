@@ -1,15 +1,7 @@
 <?php
 include_once ('../vendor/autoload.php');
 
-
-$data = ['user' => ['name' => 'Mars', 'birthday' => '2000-01-01']];
-var_export(\marshung\helper\ArrayHelper::getContent($data)); // full $data content
-var_export(\marshung\helper\ArrayHelper::getContent($data, 'user')); // full $data content
-echo \marshung\helper\ArrayHelper::getContent($data, ['user', 'name']); // Mars
-echo \marshung\helper\ArrayHelper::getContent($data, ['user', 'name', 'aaa'], 1); // Mars
-
-
-exit;
+use marsapp\helper\myarray\ArrayHelper;
 
 
 $data = [
@@ -46,10 +38,10 @@ $options = [
 //     ),
 // );
 
-// \marshung\structure\types\TableBuilder::setOption($option);
+// \marsapp\structure\types\TableBuilder::setOption($option);
 
 
-$render = '\marshung\structure\types\TableBuilder';
+$render = '\marsapp\structure\types\TableBuilder';
 
 echo $render::render($options);
 
@@ -84,7 +76,7 @@ $options = [
     'foot' => $foot
 ];
 
-echo \marshung\structure\Structure::render($options);
+echo \marsapp\structure\Structure::render($options);
 
 
 exit;

@@ -1,5 +1,5 @@
 <?php
-namespace marshung\structure;
+namespace marsapp\structure;
 
 /**
  * Structure Builder
@@ -33,7 +33,7 @@ class Structure
     
     public static function render($options)
     {
-        return \marshung\structure\types\TableBuilder::render($options);
+        return \marsapp\structure\types\TableBuilder::render($options);
     }
     
     /**

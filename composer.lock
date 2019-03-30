@@ -4,27 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "583b01dbabe6476eaec2ad77ad1fa726",
+    "content-hash": "0a02da8997bb2b56b0b77508901c1e30",
     "packages": [
         {
-            "name": "marshung/autoloader",
-            "version": "1.0.4",
+            "name": "marsapp/arrayhelper",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/marshung24/autoloader.git",
-                "reference": "ef90c66b27cb4e348e312312f9a0ba67193b260b"
+                "url": "https://github.com/marshung24/ArrayHelper.git",
+                "reference": "46a04b5334d04a80da200bab98bd020608d1f990"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marshung24/autoloader/zipball/ef90c66b27cb4e348e312312f9a0ba67193b260b",
-                "reference": "ef90c66b27cb4e348e312312f9a0ba67193b260b",
+                "url": "https://api.github.com/repos/marshung24/ArrayHelper/zipball/46a04b5334d04a80da200bab98bd020608d1f990",
+                "reference": "46a04b5334d04a80da200bab98bd020608d1f990",
                 "shasum": ""
+            },
+            "require-dev": {
+                "marsapp/devtools": "*"
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "src/"
-                ]
+                "psr-4": {
+                    "marsapp\\helper\\myarray\\": "src",
+                    "marsapp\\helper\\test\\myarray\\": "test"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -36,27 +40,30 @@
                     "email": "tfaredxj@gmail.com"
                 }
             ],
-            "description": "Provides automatic loading of services during development",
-            "time": "2018-06-24T14:19:24+00:00"
-        },
+            "description": "ArrayHelper liberary, providing functions such as rebuilding indexes, grouping, getting content, recursive difference sets, recursive sorting, etc.",
+            "homepage": "https://github.com/marshung24/ArrayHelper",
+            "time": "2019-03-27T16:25:43+00:00"
+        }
+    ],
+    "packages-dev": [
         {
-            "name": "marshung/helper",
-            "version": "0.1.0",
+            "name": "marsapp/devtools",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/marshung24/helper.git",
-                "reference": "648ee3c5ac1efd03a814568326216d1636253801"
+                "url": "https://github.com/marshung24/DevTools.git",
+                "reference": "15cfb0eaf34a75fbc6dbb19b76c11757adc0715d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marshung24/helper/zipball/648ee3c5ac1efd03a814568326216d1636253801",
-                "reference": "648ee3c5ac1efd03a814568326216d1636253801",
+                "url": "https://api.github.com/repos/marshung24/DevTools/zipball/15cfb0eaf34a75fbc6dbb19b76c11757adc0715d",
+                "reference": "15cfb0eaf34a75fbc6dbb19b76c11757adc0715d",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "marshung\\helper\\": "src"
+                    "marsapp\\dev\\tools\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -69,12 +76,11 @@
                     "email": "tfaredxj@gmail.com"
                 }
             ],
-            "description": "PHP Helpers liberaries",
-            "homepage": "https://github.com/marshung24/io",
-            "time": "2019-03-10T16:07:04+00:00"
+            "description": "Dev Tools",
+            "homepage": "https://github.com/marshung24/DevTools",
+            "time": "2019-03-28T15:18:10+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],

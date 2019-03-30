@@ -1,8 +1,8 @@
 <?php
-namespace marshung\structure\abstracts;
+namespace marsapp\structure\abstracts;
 
-use \marshung\structure\abstracts\Config;
-use \marshung\structure\tools\ClassHelper;
+use marsapp\structure\abstracts\Config;
+use marsapp\structure\tools\ClassHelper;
 
 /**
  * Table Style Profile

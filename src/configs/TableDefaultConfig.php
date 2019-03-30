@@ -1,12 +1,12 @@
 <?php
-namespace marshung\structure\configs;
+namespace marsapp\structure\configs;
 
 /**
  * Table Config Profile
  *
  * @author Mars.Hung
  */
-class TableDefaultConfig extends \marshung\structure\abstracts\TableConfig
+class TableDefaultConfig extends \marsapp\structure\abstracts\TableConfig
 {
     
     /**

@@ -1,5 +1,5 @@
 <?php
-namespace marshung\structure\abstracts;
+namespace marsapp\structure\abstracts;
 
 /**
  * Table Config Profile
